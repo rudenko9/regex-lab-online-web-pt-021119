@@ -11,7 +11,7 @@ text.scan(/\w\A+un/)
 end
 
 def words_five_letters_long(text)
-  word.grep(/^\w{5}\s/)
+  text.grep(/^\w{5}\s/)
 
 end
 
